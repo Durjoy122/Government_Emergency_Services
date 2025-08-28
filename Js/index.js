@@ -70,7 +70,7 @@ clearHistoryBtn.addEventListener("click", () => {
 });
 
 
-// copy functions and Counter 
+// copy functions and Counter related works 
 const copyButtons = document.querySelectorAll('.copy-btn');
 const copyButton = document.getElementById('copyButton');
 let cnt = 0;
