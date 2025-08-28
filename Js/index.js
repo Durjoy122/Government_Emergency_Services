@@ -85,7 +85,7 @@ copyButtons.forEach(button => {
         tempInput.select();
         document.execCommand("copy"); 
         document.body.removeChild(tempInput);
-        alert("Number is Copied");
+        alert("Number is Copied: " + number);
         cnt++;
         copyButton.innerText = cnt + " Copy";
     });
